@@ -1,0 +1,10 @@
+<!-- Invoke a method to load a dataframe before visualizing it -->
+<div id="chart{{prefix}}">
+    <button type="submit" 
+        pd_entity="df" 
+        pd_script="self.df = self.load_df()" 
+        pd_options="handlerId=dataframe" 
+        pd_target="chart{{prefix}}">
+        Show Chart
+    </button>
+    
