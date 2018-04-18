@@ -1,0 +1,22 @@
+{
+    "language": "python",
+    "env": {
+     "SCALA_HOME": "/Users/dtaieb/pixiedust/bin/scala/scala-2.11.8",
+     "PYTHONPATH": "/Users/dtaieb/pixiedust/bin/spark/spark-2.3.0-bin-hadoop2.7/python/:/Users/dtaieb/pixiedust/bin/spark/spark-2.3.0-bin-hadoop2.7/python/lib/py4j-0.10.6-src.zip",
+     "SPARK_HOME": "/Users/dtaieb/pixiedust/bin/spark/spark-2.3.0-bin-hadoop2.7",
+     "PYSPARK_SUBMIT_ARGS": "--driver-java-options=-Djava.security.auth.login.config=/Users/dtaieb/pixiedust/jaas.conf --jars /Users/dtaieb/pixiedust/bin/cloudant-spark-v2.0.0-185.jar --driver-class-path /Users/dtaieb/pixiedust/data/libs/* --master local[10] --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.3.0 pyspark-shell",
+     "PIXIEDUST_HOME": "/Users/dtaieb/pixiedust",
+     "SPARK_DRIVER_MEMORY": "10G",
+     "SPARK_LOCAL_IP": "127.0.0.1",
+     "PYTHONSTARTUP": "/Users/dtaieb/pixiedust/bin/spark/spark-2.3.0-bin-hadoop2.7/python/pyspark/shell.py"
+    },
+    "display_name": "Python with Pixiedust (Spark 2.3)",
+    "argv": [
+     "python",
+     "-m",
+     "ipykernel",
+     "-f",
+     "{connection_file}"
+    ]
+   }
+   
