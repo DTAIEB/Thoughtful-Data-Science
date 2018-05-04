@@ -8,7 +8,7 @@ class WordCloudApp():
             <input type="text" size="80" id="url{{prefix}}">
             <button type="submit" 
                 pd_options="url=$val(url{{prefix}})" 
-                pd_app="WCApp"
+                pd_app="WCChildApp"
                 pd_target="wordcloud{{prefix}}">
                 Go
             </button>
