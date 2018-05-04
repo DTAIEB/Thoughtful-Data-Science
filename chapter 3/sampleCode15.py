@@ -9,7 +9,7 @@ pd_target="target{{prefix}}">
             <pd_script>
 self.name="some value"
 print("This is a multi-line pd_script")
-            <pd_script>
+            </pd_script>
             Click me
         </button>
         
