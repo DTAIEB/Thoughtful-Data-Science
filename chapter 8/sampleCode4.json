@@ -1,0 +1,27 @@
+{
+    "databases": [{
+           "id": 231,
+           "name": "Deutsche Bundesbank Data Repository",
+           "database_code": "BUNDESBANK",
+           "description": "Data on the German economy, …",
+           "datasets_count": 49358,
+           "downloads": 43209922,
+           "premium": false,
+           "image": "https://quandl--upload.s3.amazonaws/...thumb_bundesbank.png",
+           "favorite": false,
+           "url_name": "Deutsche-Bundesbank-Data-Repository"
+         },…
+  ], 
+    "meta": {
+      "query": "",
+      "per_page": 100,
+      "current_page": 1,
+      "prev_page": null,
+      "total_pages": 3,
+      "total_count": 274,
+      "next_page": 2,
+      "current_first_item": 1,
+      "current_last_item": 100
+    }
+  }
+  
