@@ -1,0 +1,5 @@
+G = nx.DiGraph()
+G.add_nodes_from(['A', 'B', 'C', 'D', 'E'])
+G.add_edge('A', 'B')
+G.add_edge('B', 'B')
+G.add_edges_from([('A', 'E'),('A', 'D'),('B', 'C'),('C', 'E'),('D', 'C')])
