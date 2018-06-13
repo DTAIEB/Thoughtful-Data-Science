@@ -1,3 +1,4 @@
+import shutil
 def ensure_dir(dir, delete_tree = False):
     if not os.path.exists(dir):
         os.makedirs(dir)
