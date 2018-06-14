@@ -1,3 +1,4 @@
+from pixiedust.display.app import *
 @PixieApp
 class TweetInsightApp():    
     @route()

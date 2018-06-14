@@ -3,5 +3,5 @@ def compute_mean_squared_error(test_series, forecast_series):
     return mean_squared_error(test_series, forecast_series)
 
 print('Mean Squared Error: {}'.format( 
-compute_mean_squared_error( test_set['Adj. Close'], forecast)) 
+compute_mean_squared_error( test_set['Adj. Close'], results.forecast)) 
 )
