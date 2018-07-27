@@ -1,4 +1,4 @@
-pd_options="org_airport=$val(origin_airport{{prefix}});dest_airport=$val(destination_airport{{prefix}})">
+<button class="btn btn-default" type="button" pd_options="org_airport=$val(origin_airport{{prefix}});dest_airport=$val(destination_airport{{prefix}})">
    <pd_script type="preRun">
        if ($("#origin_airport{{prefix}}").val() == "" || $("#destination_airport{{prefix}}").val() == ""){
            alert("Please select an origin and destination airport");
