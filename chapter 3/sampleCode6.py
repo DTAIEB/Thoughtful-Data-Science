@@ -1,3 +1,4 @@
+[[GitHubTracking]]
 @route(query="*")
 @templateArgs
 def do_search(self, query):
@@ -13,7 +14,7 @@ def do_search(self, query):
     total_count = response.json()['total_count']
     self.next_url = response.links.get('next', {}).get('url', None)
     self.last_url = response.links.get('last', {}).get('url', None)
-        return """
+    return """
 <h1><center>{{total_count}} repositories were found</center></h1>
 <ul class="pagination">
   <li><a href="#" pd_options="page=first_url" pd_target="body{{prefix}}">First</a></li>
