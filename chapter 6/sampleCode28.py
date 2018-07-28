@@ -1,3 +1,4 @@
+[[TensorGraphApp]]
 return """
 {%if this.custom_graph%}
 <div style="margin-top:10px" pd_refresh>
