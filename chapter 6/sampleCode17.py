@@ -1,3 +1,4 @@
+[[ScoreImageApp]]
 @route()
 def main_screen(self):
    return """
