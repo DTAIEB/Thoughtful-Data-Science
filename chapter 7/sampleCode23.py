@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
+[[TweetInsightApp]]
 @route(display_wc="*")
 @captureOutput
 def do_display_wc(self):
