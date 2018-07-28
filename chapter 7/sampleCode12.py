@@ -1,3 +1,4 @@
+[[RawTweetsListener]]
 def enrich(self, data):
     try:
         response = nlu.analyze( 
