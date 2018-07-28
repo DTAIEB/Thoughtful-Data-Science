@@ -1,3 +1,4 @@
+[[RepoAnalysis]]
 @route(analyse_type="*")
 @templateArgs
 def do_analyse_type(self, analyse_type):
