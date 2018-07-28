@@ -1,5 +1,6 @@
 import requests
 import pandas
+[[GitHubTracking]]
 @route(query="*")
 @templateArgs
 def do_search(self, query):
