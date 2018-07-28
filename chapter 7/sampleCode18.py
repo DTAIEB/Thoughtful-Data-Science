@@ -1,6 +1,6 @@
 def start_parquet_streaming_query(csv_sdf):
     """
-    Create an run a streaming query from a Structured DataFrame 
+    Create and run a streaming query from a Structured DataFrame 
     outputing the results into a parquet database
     """
     streaming_query = csv_sdf \
