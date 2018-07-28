@@ -1,3 +1,4 @@
+[[LabelsApp]]
 @PixieApp
 class LabelsApp():
     def setup(self):
