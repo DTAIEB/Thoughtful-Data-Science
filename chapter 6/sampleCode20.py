@@ -1,3 +1,4 @@
+[[ImageRecoApp]]
 from pixiedust.apps.template import TemplateTabbedApp
 @PixieApp
 class ImageRecoApp(TemplateTabbedApp):
