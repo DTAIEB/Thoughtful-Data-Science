@@ -1,3 +1,4 @@
+[[GitHubTracking]]
 @route(page="*")
 @templateArgs
 def do_retrieve_page(self, page):
@@ -8,7 +9,7 @@ def do_retrieve_page(self, page):
     self.prev_url = response.links.get('prev', {}).get('url', None)
     self.next_url = response.links.get('next', {}).get('url', None)
     items = response.json()['items']
-        return """
+    return """
 {%for row in items%}
 <tr>
     <td>{{row['name']}}</td>
