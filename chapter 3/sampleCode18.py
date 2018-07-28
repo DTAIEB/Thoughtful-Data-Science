@@ -7,9 +7,9 @@ class WidgetApp():
         return "<div>Hello World Widget</div>"
     
 @PixieApp
-class ConsummerApp(WidgetApp):
+class ConsumerApp(WidgetApp):
     @route()
     def main_screen(self):
         return """<div pd_widget="my_widget"></div>"""
     
-ConsummerApp().run()
+ConsumerApp().run()
