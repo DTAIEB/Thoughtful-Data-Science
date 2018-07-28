@@ -1,3 +1,4 @@
+[[TweetInsightApp]]
 @route(display_metric1="*")
     def do_display_metric1(self, display_metric1):
         parquet_dir = os.path.join(root_dir, "output_parquet")
