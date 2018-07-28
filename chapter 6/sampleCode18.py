@@ -1,3 +1,4 @@
+[[ScoreImageApp]]
 @route(image_url="*")
 @templateArgs
 def do_process_url(self, image_url):
