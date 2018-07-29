@@ -1,7 +1,7 @@
 {   
     'Number of lags used': 3,
-        'Number of Observations Used': 8057,
-        'Test statistic': -48.071592138591136,
-        'MacKinnon’s approximate p-value': 0.0
-    }
+    'Number of Observations Used': 8057,
+    'Test statistic': -48.071592138591136,
+    'MacKinnon’s approximate p-value': 0.0
+}
     
