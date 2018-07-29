@@ -1,9 +1,10 @@
+[[StockExplorer]]
 @route(explore="*")
-    @templateArgs
-    def stock_explore_screen(self):
-        tabs = [("Explore","StockExploreSubApp"), ("Moving Average", "MovingAverageSubApp"),
-                ("ACF and PACF", "AutoCorrelationSubApp")]
-        return """
+@templateArgs
+def stock_explore_screen(self):
+    tabs = [("Explore","StockExploreSubApp"), ("Moving Average", "MovingAverageSubApp"),
+            ("ACF and PACF", "AutoCorrelationSubApp")]
+    return """
 <style>    
     .btn:active, .btn.active {
         background-color:aliceblue;
